@@ -1,0 +1,13 @@
+<h1>Hello</h1>
+
+
+<ul class="people_list">
+  {{#each articles}}
+    <li>{{this.headline}}</li>
+    <li><a href={{this.url}}>reference to link</a></li>
+    <li>{{this.summary}}</li>
+  {{/each}}
+</ul>
+
+
+
